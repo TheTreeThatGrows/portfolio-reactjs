@@ -7,6 +7,10 @@ import "./Testimonial.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import lady from "../../../src/img/Testimonial/lady.png";
+import mike from "../../../src/img/Testimonial/mike.png";
+import man from "../../../src/img/Testimonial/man.png";
+import daisy from "../../../src/img/Testimonial/daisy.jpg";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -81,10 +85,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/mike.png"
-                      alt="no internet connection"
-                    ></img>
+                    <img src={mike} alt="no internet connection"></img>
                     <h5>Mike</h5>
                     <p>CEO MikeTech</p>
                   </div>
@@ -120,10 +121,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    ></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Karen</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -159,10 +157,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/man.png"
-                      alt="no internet connection"
-                    ></img>
+                    <img src={man} alt="no internet connection"></img>
                     <h5>William</h5>
                     <p>CEO WilliamCorp</p>
                   </div>
@@ -198,10 +193,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/daisy.jpg"
-                      alt="no internet connection"
-                    ></img>
+                    <img src={daisy} alt="no internet connection"></img>
                     <h5>Daisy</h5>
                     <p>CEO DaisyShop</p>
                   </div>
