@@ -30,6 +30,7 @@
     margin: 10px 0 0 0;
     text-align: justify;
     max-width: 100%;
+    font-size: 14px;
 }
 
 .resume-details-carousel {
@@ -98,6 +99,7 @@
 .resume-heading {
     display: flex;
     flex-direction: column;
+    margin: 10px 0 0 0;
 }
 
 .resume-main-heading {

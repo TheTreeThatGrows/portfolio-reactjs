@@ -117,8 +117,22 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"MCDonalds, Nygårdskrysset — Part timer"}
-          subHeading={"Part-timer at McDonlads"}
+          heading={"AMBITA AS - FULL STACK DEVELOPER INTERNSHIP"}
+          subHeading={"Full Stack Developer intern during Bachelor Project"}
+          fromDate={"2020"}
+          toDate={"2020"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Worked as a full stack developer intern for 6 months at Ambita AS
+            during the Bachelor Project. We worked on moving a web application
+            over to a more robust and modern framework. We used TypeScript
+            (Frontend), and Java (Backend). I Mainly focused on the frontend.
+          </span>
+        </div>
+        <ResumeHeading
+          heading={"MCDONALDS NYGÅRDSKRYSSET - FAST FOOD WORKER"}
+          subHeading={"Part-timer at McDonalds"}
           fromDate={"2021"}
           toDate={"present"}
         />
@@ -126,22 +140,6 @@ export default function Resume(props) {
           <span className="resume-description-text">
             Currently working as an employee in a fast and hectic work
             environment with huge focus on amazing customer service.
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Mainly focusing on taking both the customers orders and payment at
-            the Drive Thru.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Multitasking and supporting colleagues while handling customer
-            services at Drive Thru.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Efficient in every station including the Lobby, Front desk, Drive
-            Thru 1 and 2, Backroom and the Kitchen.
           </span>
         </div>
       </div>
@@ -244,7 +242,10 @@ export default function Resume(props) {
     );
   };
   return (
-    <div className="resume-container screen-container fade-in" id={props.id || ""}>
+    <div
+      className="resume-container screen-container fade-in"
+      id={props.id || ""}
+    >
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My Formal Bio Details"} />
         <div className="resume-card">
